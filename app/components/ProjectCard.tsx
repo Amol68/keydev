@@ -21,7 +21,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       {/* Status Badge */}
       {project.isPending && (
         <span
-          className="absolute md:top-4 bottom-4.5 right-4
+          className="absolute  bottom-4.5 right-4
                      bg-yellow-400 text-black
                      text-[10px] sm:text-xs
                      px-3 py-1
@@ -32,7 +32,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       )}
 
       {/* Title */}
-      <h3 className="text-lg tracking-wider sm:text-xl md:text-2xl font-semibold mb-3">
+      <h3 className="text-lg tracking-wider  font-semibold mb-3">
         {project.title}
       </h3>
 
@@ -43,7 +43,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 
       {/* Points */}
       <ul
-        className="text-xs sm:text-sm
+        className="text-xs 
                    list-disc list-outside
                    pl-5
                    tracking-wider

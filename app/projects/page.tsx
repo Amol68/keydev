@@ -55,7 +55,7 @@ export default function Projects() {
   return (
     <main className="px-10 md:px-32 py-3! max-w-6xl ">
       <section className="py-8">
-        <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+        <h2 className="text-3xl font-bold mb-10 ">Projects</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (

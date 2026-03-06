@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${playfair.className} bg-black text-white`}>
+      <body className={`${playfair.className} bg-black text-white flex flex-col min-h-screen`}>
         <Navbar/>
         {children}
       </body>
