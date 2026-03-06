@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: "Blog", href: "/blogs" },
   ];
   return (
-    <nav className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between items-center px-30 py-6 text-sm tracking-widest">
+    <nav className="flex flex-col md:flex-row gap-4 bg-gray-950 md:gap-0 justify-between items-center px-30 py-10 text-sm tracking-widest">
       <span className="font-semibold text-lg ">KeyDev</span>
 
 

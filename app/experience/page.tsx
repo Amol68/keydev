@@ -5,20 +5,7 @@ import { Playfair_Display } from "next/font/google";
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 const experience = [
-  {
-    company: "Sankey Solutions",
-    logo:"https://sankeysolutions.com/wp-content/uploads/2024/05/logo.png",
-    role: "React Native Intern",
-    duration: "2024 | 4 Months",
-    experince: [
-      "Built a responsive  interface in React Native by translating complex Figma designs into pixel-accurate mobile screens.",
-      "Developed a module to dynamically manage parameter and sub-parameter weight distribution with real-time state synchronization.",
-      "Implemented a dynamic percentage status bar that calculates cumulative totals and triggers validation warnings when exceeding 100%, improving user input accuracy.",
-      "Managed component state efficiently using React hooks to ensure isolated updates across multiple presets.",
-    ],
-  },
-
-  {
+   {
     company: "FynTune Solutions",
     logo:"https://www.fyntune.com/images/logo/logo.png",
     role: "React JS Developer",
@@ -30,6 +17,18 @@ const experience = [
       "Implemented server state management using TanStack Query, improving performance and reducing redundant API calls.",
       "Owned complete UI revamp, bootstrapping project architecture (routing, Axios setup, reusable components).",
       "Managed production deployments via Jenkins across UAT, Preprod, and Prod.",
+    ],
+  },
+  {
+    company: "Sankey Solutions",
+    logo:"https://sankeysolutions.com/wp-content/uploads/2024/05/logo.png",
+    role: "React Native Intern",
+    duration: "2024 | 4 Months",
+    experince: [
+      "Built a responsive  interface in React Native by translating complex Figma designs into pixel-accurate mobile screens.",
+      "Developed a module to dynamically manage parameter and sub-parameter weight distribution with real-time state synchronization.",
+      "Implemented a dynamic percentage status bar that calculates cumulative totals and triggers validation warnings when exceeding 100%, improving user input accuracy.",
+      "Managed component state efficiently using React hooks to ensure isolated updates across multiple presets.",
     ],
   },
 ];

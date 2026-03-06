@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
-    <section className="px-5 md:px-10  py-8 mt-8 w-full  md:max-w-6xl ">
+    <section className="px-5 md:px-10   w-full  md:max-w-6xl flex flex-col ">
       
       <p className="text-xs tracking-[0.3em] text-gray-400 mb-6 ">
         SOFTWARE ENGINEER
       </p>
 
-      <h1 className="text-3xl md:text-5xl font-bold mb-6 ">
+      <h1 className="text-5xl md:text-6xl font-bold mb-6 ">
         Amol Kadam
       </h1>
 
